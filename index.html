@@ -1,194 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Professional portfolio of Shamim Hossain, Food & Beverage Production Professional.">
-  <title>Shamim Hossain | Production Professional</title>
-  <style>
-    :root {
-      --bg: #0b1220; --panel: #121d30; --panel2: #17243a;
-      --text: #edf3fb; --muted: #a9b7ca; --accent: #42d6b2;
-      --line: rgba(255,255,255,.10); --white: #fff;
-    }
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-    body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: var(--bg); color: var(--text); line-height: 1.65; }
-    a { color: inherit; text-decoration: none; }
-    .container { width: min(1100px, 90%); margin: auto; }
-    header { position: sticky; top: 0; z-index: 10; background: rgba(11,18,32,.92); backdrop-filter: blur(12px); border-bottom: 1px solid var(--line); }
-    nav { min-height: 72px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
-    .brand { font-weight: 800; letter-spacing: .4px; font-size: 1.15rem; }
-    .brand span { color: var(--accent); }
-    .navlinks { display: flex; flex-wrap: wrap; gap: 22px; color: var(--muted); font-size: .92rem; }
-    .navlinks a:hover { color: var(--accent); }
-    .hero { padding: 100px 0 86px; background: radial-gradient(ellipse at 80% 20%, rgba(66,214,178,.13), transparent 35%); }
-    .eyebrow { color: var(--accent); text-transform: uppercase; letter-spacing: 2px; font-size: .78rem; font-weight: 700; }
-    h1 { font-size: clamp(2.5rem, 7vw, 5rem); line-height: 1.06; margin: 14px 0 18px; letter-spacing: -2px; }
-    h1 span { color: var(--accent); }
-    .hero p { max-width: 680px; color: var(--muted); font-size: 1.1rem; }
-    .buttons { display: flex; flex-wrap: wrap; gap: 13px; margin-top: 30px; }
-    .btn { padding: 12px 20px; border-radius: 8px; font-weight: 700; border: 1px solid var(--accent); display: inline-block; }
-    .btn.primary { background: var(--accent); color: #07131a; }
-    .btn.secondary { color: var(--accent); }
-    section { padding: 76px 0; }
-    .section-title { font-size: clamp(1.8rem, 4vw, 2.5rem); margin: 0 0 10px; }
-    .section-intro { color: var(--muted); margin: 0 0 32px; max-width: 700px; }
-    .grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 20px; }
-    .card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 24px; }
-    .card h3 { margin: 0 0 8px; }
-    .card p, .muted { color: var(--muted); }
-    .taglist { display: flex; flex-wrap: wrap; gap: 10px; }
-    .tag { background: var(--panel2); border: 1px solid var(--line); padding: 8px 13px; border-radius: 999px; color: #dce8f5; font-size: .9rem; }
-    .timeline { border-left: 2px solid rgba(66,214,178,.5); padding-left: 24px; margin-left: 8px; }
-    .timeline-item { position: relative; margin: 0 0 28px; }
-    .timeline-item:before { content: ""; width: 11px; height: 11px; background: var(--accent); border-radius: 50%; position: absolute; left: -31px; top: 8px; }
-    .date { color: var(--accent); font-size: .88rem; font-weight: 700; }
-    .contact-box { background: linear-gradient(135deg, #14253a, #102d35); border: 1px solid var(--line); border-radius: 18px; padding: 32px; }
-    footer { border-top: 1px solid var(--line); padding: 25px 0; color: var(--muted); font-size: .9rem; text-align: center; }
-    @media (max-width: 700px) {
-      nav { align-items: flex-start; flex-direction: column; padding: 16px 0; }
-      .navlinks { gap: 12px 16px; }
-      .hero { padding: 72px 0 60px; }
-      section { padding: 58px 0; }
-      .grid { grid-template-columns: 1fr; }
-    }
-  </style>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Shamim Hossain — Biscuit and Bakery Professional. Production monitoring, biscuit manufacturing and process coordination.">
+<title>Shamim Hossain | Biscuit and Bakery Professional</title>
+<style>
+:root{--navy:#061b3c;--navy2:#092b58;--blue:#1265bd;--green:#54ed35;--mint:#b7ff9b;--ink:#09234a;--muted:#526783;--pale:#f1f7ff;--line:#d7e7fa;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:85px}body{margin:0;font-family:Inter,Arial,Helvetica,sans-serif;color:var(--ink);background:#eaf3ff;line-height:1.6}a{text-decoration:none;color:inherit}.wrap{width:min(1200px,92%);margin:auto}
+header{position:sticky;top:0;z-index:20;background:rgba(4,25,57,.97);color:#fff;box-shadow:0 5px 22px #00163333}.nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{display:flex;align-items:center;gap:10px;font-weight:850;font-size:1.12rem;line-height:1.15}.brand-mark{width:42px;height:42px;border:3px solid var(--green);border-radius:14px;display:grid;place-items:center;color:var(--green);font-size:1.35rem}.brand b{color:var(--green)}.brand small{display:block;font-size:.68rem;font-weight:500;color:#d7e8ff;letter-spacing:.2px}.links{display:flex;gap:23px;align-items:center;font-size:.88rem;font-weight:700}.links a:hover{color:var(--green)}.cv{background:linear-gradient(100deg,var(--green),#a4ffb2);color:#06234a;padding:10px 17px;border-radius:24px;font-weight:800;white-space:nowrap}.menu{display:none;background:none;border:1px solid #ffffff55;color:white;padding:8px 12px;border-radius:9px}
+.hero{position:relative;overflow:hidden;background:linear-gradient(110deg,#061b3c 0%,#0a3265 53%,#0b5795 100%);color:white;min-height:410px}.hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 47% 48%,#2ce35c55,transparent 26%),linear-gradient(135deg,transparent 42%,#39e85b22 42.2%,transparent 57%);pointer-events:none}.hero-grid{position:relative;display:grid;grid-template-columns:1.05fr .9fr 1.05fr;align-items:center;min-height:410px;gap:15px;padding:30px 0}.hero-copy{z-index:2}.hello{font-size:1.35rem;font-weight:700;margin:0}.hero h1{font-size:clamp(2.7rem,5.4vw,4.7rem);line-height:1.02;letter-spacing:-2px;margin:5px 0 12px}.hero h1 span{color:var(--green)}.role{font-size:clamp(1.05rem,2vw,1.45rem);font-weight:800;font-style:italic;margin:0 0 15px}.hero-desc{color:#e0edff;max-width:490px;margin:0}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:22px 0 15px}.button{display:inline-flex;align-items:center;gap:8px;padding:10px 18px;border:1.5px solid var(--green);border-radius:24px;font-weight:800}.button.primary{background:var(--green);color:#05244b}.button.outline{color:white}.social{display:flex;gap:9px}.social a{width:34px;height:34px;border:1px solid #ffffff66;border-radius:50%;display:grid;place-items:center;font-size:.85rem;font-weight:800}.portrait-wrap{z-index:1;align-self:end;display:flex;justify-content:center;align-items:end;height:365px}.portrait{width:min(100%,290px);height:350px;object-fit:cover;object-position:center top;border:4px solid #9aff83;border-radius:145px 145px 24px 24px;background:linear-gradient(145deg,#164f88,#071a39);box-shadow:0 0 0 12px #57ed3930,0 18px 55px #00142d88}.portrait-note{display:none}.factory{align-self:stretch;display:flex;flex-direction:column;justify-content:center;min-width:0}.factory-scene{height:255px;border-radius:18px;border:1px solid #ffffff44;overflow:hidden;position:relative;background:linear-gradient(145deg,#c5e6f7 0%,#477ca2 34%,#173d62 100%);box-shadow:0 15px 35px #001b3b66}.factory-scene:before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(90deg,transparent 0 42px,#e4f5ff55 43px 48px,transparent 49px 82px),linear-gradient(180deg,#c7e7f2aa 0 18%,transparent 18% 100%)}.factory-scene:after{content:"";position:absolute;left:-8%;right:-8%;bottom:24px;height:100px;transform:skewY(-7deg);background:repeating-linear-gradient(90deg,#d9e8ee 0 6px,#819bad 7px 12px),linear-gradient(#f4a72c,#d77c12);border:8px solid #c9d9e3;box-shadow:0 -14px 0 #6e8799}.cookie{position:absolute;z-index:2;bottom:100px;width:42px;height:22px;border-radius:50%;background:radial-gradient(circle,#b96a1e 0 2px,#e9a33c 3px 8px,#c77a22 9px 10px,#f4c06c 11px);box-shadow:0 4px 5px #172e43;transform:rotate(-7deg)}.cookie:nth-child(1){left:10%;bottom:117px}.cookie:nth-child(2){left:28%;bottom:126px}.cookie:nth-child(3){left:48%;bottom:133px}.cookie:nth-child(4){left:67%;bottom:143px}.cookie:nth-child(5){left:84%;bottom:151px}.factory-label{text-align:right;font-weight:900;font-style:italic;font-size:1.55rem;line-height:1.15;margin:0 5px 12px}.factory-label span{color:#ffe34d}
+main{padding:24px 0 0}.panel{background:linear-gradient(135deg,#fff,#eaf4ff);border:1px solid #d4e6fa;border-radius:17px;box-shadow:0 8px 24px #0b3c7610;padding:23px}.overview{display:grid;grid-template-columns:1.08fr 1.15fr 1.12fr;gap:16px}.aboutbox{display:grid;grid-template-columns:135px 1fr;gap:16px;align-items:center}.biscuit-art{height:145px;border-radius:16px;background:radial-gradient(circle at 50% 40%,#ffe4a4,#c78331 70%,#8c4b1d);display:grid;place-items:center;font-size:3.3rem;box-shadow:inset 0 0 0 5px #fff8}.panel h2{font-size:1.35rem;margin:0 0 10px;color:#082c61}.panel h2 .ico{color:#0875c9;margin-right:7px}.panel p{margin:0;color:#3f5876;font-size:.94rem}.learn{display:inline-block;margin-top:12px;padding:7px 15px;border-radius:22px;background:var(--blue);color:white;font-weight:800;font-size:.86rem}.timeline{border-left:2px solid #79b8f2;margin:13px 0 0 8px;padding-left:17px}.job{position:relative;margin:0 0 13px}.job:before{content:"";position:absolute;left:-24px;top:5px;width:11px;height:11px;border-radius:50%;background:var(--green);border:2px solid #fff;box-shadow:0 0 0 1px #8ac5f3}.job strong{display:block;color:#092d60;font-size:.91rem}.job span{display:block;color:#49627f;font-size:.82rem}.skill-list{display:grid;gap:12px;margin-top:14px}.skill-row{display:grid;grid-template-columns:1fr auto;gap:5px 12px;font-size:.88rem;font-weight:700}.bar{grid-column:1/-1;height:8px;border-radius:10px;background:#c8dcf3;overflow:hidden}.bar i{display:block;height:100%;background:linear-gradient(90deg,#35d94c,#0879d1);border-radius:10px}
+.lower{display:grid;grid-template-columns:1.08fr 1.25fr .95fr 1fr;gap:16px;margin:16px 0 24px}.rings{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}.ring{text-align:center}.ring span{width:67px;height:67px;border-radius:50%;display:grid;place-items:center;margin:auto;background:conic-gradient(#36d84d 0 78%,#1688d4 78% 92%,#d3e6f9 92%);position:relative;font-weight:900;color:#092c5d}.ring span:after{content:"";position:absolute;inset:7px;border-radius:50%;background:#f5faff;z-index:0}.ring b{z-index:1}.ring small{display:block;font-size:.75rem;font-weight:700;line-height:1.2;margin-top:8px}.project-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:9px;margin-top:13px}.project{background:#0b3970;color:white;border-radius:11px;padding:12px;min-height:104px;display:flex;flex-direction:column;justify-content:space-between}.project .symbol{font-size:1.4rem}.project strong{font-size:.85rem;line-height:1.25}.project small{color:#c9e2ff}.achievements{list-style:none;padding:0;margin:14px 0 0}.achievements li{margin:0 0 10px;font-size:.88rem;font-weight:700;display:flex;gap:8px}.achievements li:before{content:"✓";background:#35d64a;color:#052b5b;border-radius:50%;width:21px;height:21px;display:grid;place-items:center;flex:none}.contact{background:linear-gradient(145deg,#082b5c,#061b3c);color:white}.contact h2{color:white}.contact p,.contact a{color:#e1efff}.contact-details{font-size:.86rem;display:grid;gap:9px;margin-top:14px}.contact-details b{color:var(--green);margin-right:6px}.contact .button{margin-top:15px;background:var(--green);color:#06234a;justify-content:center;width:100%}
+footer{background:#041a39;color:#d9e8fa;padding:18px 0;margin-top:0}.foot{display:flex;justify-content:space-between;gap:12px;align-items:center;font-size:.82rem}.foot strong{color:var(--green)}
+@media(max-width:980px){.hero-grid{grid-template-columns:1.1fr .9fr}.factory{display:none}.overview{grid-template-columns:1fr 1fr}.overview .panel:last-child{grid-column:1/-1}.lower{grid-template-columns:1fr 1fr}}
+@media(max-width:650px){.nav{min-height:64px}.links{display:none;position:absolute;top:64px;left:0;right:0;background:#061b3c;padding:16px 5%;flex-direction:column;align-items:flex-start;gap:14px}.links.open{display:flex}.menu{display:block;margin-left:auto}.nav>.cv{font-size:.78rem;padding:8px 11px}.brand{font-size:1rem}.hero-grid{grid-template-columns:1fr;min-height:0;padding:36px 0 25px}.hero-copy{text-align:center}.hero-desc{margin:auto}.actions,.social{justify-content:center}.hero h1{font-size:clamp(2.7rem,12vw,4rem)}.portrait-wrap{height:250px;grid-row:2}.portrait{height:240px;width:200px}.overview,.lower{grid-template-columns:1fr}.overview .panel:last-child{grid-column:auto}.aboutbox{grid-template-columns:100px 1fr}.biscuit-art{height:112px}.rings{grid-template-columns:repeat(3,1fr)}.foot{flex-direction:column;text-align:center}.panel{padding:18px}}
+</style>
 </head>
 <body>
-<header>
-  <div class="container">
-    <nav>
-      <a class="brand" href="#home">SHAMIM<span>.</span></a>
-      <div class="navlinks">
-        <a href="#about">About</a><a href="#experience">Experience</a>
-        <a href="#skills">Skills</a><a href="#education">Education</a><a href="#contact">Contact</a>
-      </div>
-    </nav>
-  </div>
-</header>
-
-<main>
-  <section class="hero" id="home">
-    <div class="container">
-      <div class="eyebrow">Food &amp; Beverage Manufacturing Professional</div>
-      <h1>Shamim <span>Hossain</span></h1>
-      <p>
-        Production professional with hands-on experience in biscuit manufacturing,
-        production monitoring, process control, team coordination and daily production reporting.
-        Focused on safe operations, consistent product quality and achieving production targets.
-      </p>
-      <div class="buttons">
-        <a class="btn primary" href="#contact">Contact Me</a>
-        <a class="btn secondary" href="Shamim-Hossain-CV.pdf" download>Download CV</a>
-      </div>
-    </div>
-  </section>
-
-  <section id="about">
-    <div class="container">
-      <div class="eyebrow">Profile</div>
-      <h2 class="section-title">About Me</h2>
-      <p class="section-intro">
-        I am a Food &amp; Beverage production professional experienced in manufacturing-floor
-        activities and coordinating people, processes and equipment to support daily production goals.
-        I value continuous improvement, workplace safety, product consistency and teamwork.
-      </p>
-      <div class="grid">
-        <div class="card"><h3>Professional Focus</h3><p>Biscuit manufacturing, production planning and monitoring, dough and baking process observation, line performance and operational coordination.</p></div>
-        <div class="card"><h3>Working Approach</h3><p>Practical problem-solving, SOP follow-up, process checks, production data review and coordination with Quality and Maintenance teams.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <section id="experience" style="background:#0e1727;">
-    <div class="container">
-      <div class="eyebrow">Career</div>
-      <h2 class="section-title">Work Experience</h2>
-      <p class="section-intro">A summary of my experience in food and beverage manufacturing. Update job titles and dates as needed.</p>
-      <div class="timeline">
-        <div class="timeline-item">
-          <div class="date">October 2021 – October 2026</div>
-          <h3>Assistant Production Officer</h3>
-          <strong>Olympic Industries Limited</strong>
-          <p class="muted">Biscuit production operations — production monitoring, line and machine operation follow-up, dough and biscuit process monitoring, manpower coordination, target-versus-achievement reporting, and coordination with Quality and Maintenance.</p>
-        </div>
-        <div class="timeline-item">
-          <div class="date">Previous Experience</div>
-          <h3>Food &amp; Beverage Manufacturing</h3>
-          <strong>CBL / Romania Food &amp; Beverage</strong>
-          <p class="muted">Previous exposure to biscuit section and mixing-section operations. Add exact job titles, dates and responsibilities here.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="skills">
-    <div class="container">
-      <div class="eyebrow">Capabilities</div>
-      <h2 class="section-title">Core Skills</h2>
-      <p class="section-intro">Key production and manufacturing skills.</p>
-      <div class="taglist">
-        <span class="tag">Production Management</span>
-        <span class="tag">Biscuit Manufacturing</span>
-        <span class="tag">Food Processing</span>
-        <span class="tag">Production Planning</span>
-        <span class="tag">Production Monitoring</span>
-        <span class="tag">Dough Process Monitoring</span>
-        <span class="tag">Baking &amp; Oven Process</span>
-        <span class="tag">Quality Control Coordination</span>
-        <span class="tag">Manpower Management</span>
-        <span class="tag">Machine &amp; Line Operation</span>
-        <span class="tag">Daily Production Reporting</span>
-        <span class="tag">Target &amp; Achievement Analysis</span>
-        <span class="tag">SOP Compliance</span>
-        <span class="tag">Troubleshooting Coordination</span>
-        <span class="tag">Yield &amp; Production Loss Monitoring</span>
-      </div>
-    </div>
-  </section>
-
-  <section id="projects" style="background:#0e1727;">
-    <div class="container">
-      <div class="eyebrow">Practical Knowledge</div>
-      <h2 class="section-title">Projects &amp; Process Knowledge</h2>
-      <p class="section-intro">Use this section to highlight specific improvements, projects or achievements. The examples below are editable placeholders.</p>
-      <div class="grid">
-        <div class="card"><h3>Biscuit Production Process</h3><p>Raw material handling, premixing, dough preparation, forming, tunnel-oven baking, cooling and packaging process monitoring.</p></div>
-        <div class="card"><h3>Production Performance</h3><p>Monitoring production targets, output, yield, process losses and line performance; identifying operational issues for follow-up.</p></div>
-        <div class="card"><h3>Quality &amp; Process Checks</h3><p>Observing dough consistency, biscuit weight, colour, moisture, shape and finished-product quality against standards.</p></div>
-        <div class="card"><h3>Cross-functional Coordination</h3><p>Working with Production, Quality, Maintenance and manpower teams to support smooth and safe operations.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <section id="education">
-    <div class="container">
-      <div class="eyebrow">Qualifications</div>
-      <h2 class="section-title">Education</h2>
-      <div class="grid">
-        <div class="card"><h3>Bachelor's Degree</h3><p class="muted">NDE University — confirm the official institution name and add subject, passing year and result.</p></div>
-        <div class="card"><h3>Diploma</h3><p class="muted">Kishoreganj Polytechnic Institute — add department, passing year and result.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <section id="contact">
-    <div class="container">
-      <div class="contact-box">
-        <div class="eyebrow">Get in Touch</div>
-        <h2 class="section-title">Let's Connect</h2>
-        <p class="section-intro">For professional opportunities and collaboration, feel free to contact me.</p>
-        <p><strong>Email:</strong> <span class="muted">your-email@example.com</span></p>
-        <p><strong>Phone:</strong> <span class="muted">+880 1XXXXXXXXX</span></p>
-        <p><strong>Location:</strong> <span class="muted">Dhaka, Bangladesh</span></p>
-        <p><strong>LinkedIn:</strong> <span class="muted">Add your LinkedIn profile URL</span></p>
-      </div>
-    </div>
-  </section>
+<header><div class="wrap nav">
+<a class="brand" href="#home"><span class="brand-mark">✦</span><span>Shamim <b>Hossain</b><small>Biscuit and Bakery Professional</small></span></a>
+<button class="menu" id="menuBtn" aria-label="Open menu">☰</button>
+<div class="links" id="navLinks"><a href="#home">Home</a><a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div>
+<a class="cv" href="Shamim-Hossain-CV.pdf" download>⬇ Download CV</a>
+</div></header>
+<section class="hero" id="home"><div class="wrap hero-grid">
+<div class="hero-copy"><p class="hello">Hello, I'm</p><h1>Shamim <span>Hossain</span></h1><p class="role">Biscuit and Bakery Professional</p><p class="hero-desc">Production professional with hands-on experience in biscuit manufacturing, production monitoring, process control and team coordination.</p><div class="actions"><a class="button primary" href="#contact">➤ Contact Me</a><a class="button outline" href="Shamim-Hossain-CV.pdf" download>⬇ Download CV</a></div><div class="social"><a href="#contact" aria-label="LinkedIn">in</a><a href="#contact" aria-label="GitHub">GH</a><a href="#contact" aria-label="Facebook">f</a></div></div>
+<div class="portrait-wrap"><img class="portrait" src="profile-placeholder.svg" alt="Add your professional photo here"></div>
+<div class="factory"><p class="factory-label">Better Production<br><span>Brighter Future</span></p><div class="factory-scene" aria-label="Illustration of a biscuit production conveyor"><i class="cookie"></i><i class="cookie"></i><i class="cookie"></i><i class="cookie"></i><i class="cookie"></i></div></div>
+</div></section>
+<main class="wrap">
+<div class="overview">
+<section class="panel aboutbox" id="about"><div class="biscuit-art" aria-hidden="true">🍪</div><div><h2><span class="ico">▦</span>About Me</h2><p>I am Shamim Hossain, a dedicated Biscuit and Bakery Professional with practical experience in biscuit production, process monitoring, production efficiency and quality coordination.</p><a class="learn" href="#experience">Learn More →</a></div></section>
+<section class="panel" id="experience"><h2><span class="ico">▣</span>Work Experience</h2><div class="timeline"><div class="job"><strong>Assistant Production Officer</strong><span>Olympic Industries Limited · 2021–2026</span><span>Biscuit manufacturing and production operations</span></div><div class="job"><strong>Production / Mixing Section</strong><span>Romania Food &amp; Beverage · Earlier experience</span></div><div class="job"><strong>Biscuit Section</strong><span>CBL Manchi Factory · Earlier experience</span></div></div></section>
+<section class="panel" id="skills"><h2><span class="ico">⚙</span>Technical Skills</h2><div class="skill-list"><div class="skill-row">Production Monitoring<div class="bar"><i style="width:92%"></i></div></div><div class="skill-row">Biscuit Process Control<div class="bar"><i style="width:90%"></i></div></div><div class="skill-row">Quality Coordination<div class="bar"><i style="width:86%"></i></div></div><div class="skill-row">Team Coordination<div class="bar"><i style="width:84%"></i></div></div><div class="skill-row">Production Reporting<div class="bar"><i style="width:88%"></i></div></div></div></section>
+</div>
+<div class="lower">
+<section class="panel"><h2>⭐ Core Skills</h2><div class="rings"><div class="ring"><span><b>✓</b></span><small>Production<br>Management</small></div><div class="ring"><span><b>✓</b></span><small>Process<br>Control</small></div><div class="ring"><span><b>✓</b></span><small>Quality<br>Coordination</small></div></div></section>
+<section class="panel" id="projects"><h2>▣ My Projects &amp; Expertise</h2><p>Key areas of practical production knowledge</p><div class="project-grid"><div class="project"><span class="symbol">🍪</span><strong>Biscuit Production Process</strong><small>Mixing · Forming · Baking</small></div><div class="project"><span class="symbol">🏭</span><strong>Production Line Monitoring</strong><small>Target · Output · Efficiency</small></div><div class="project"><span class="symbol">🧪</span><strong>Quality Coordination</strong><small>Process and product checks</small></div><div class="project"><span class="symbol">⚙</span><strong>Process Improvement</strong><small>Loss and troubleshooting</small></div></div></section>
+<section class="panel"><h2>🏆 Key Strengths</h2><ul class="achievements"><li>Production target monitoring</li><li>Consistent process follow-up</li><li>Quality and maintenance coordination</li><li>Manpower coordination</li><li>Daily production reporting</li></ul></section>
+<section class="panel contact" id="contact"><h2>✉ Contact Me</h2><p>Feel free to reach out for professional opportunities and collaboration.</p><div class="contact-details"><div><b>☎</b> +880 1XXXXXXXXX</div><div><b>✉</b> your-email@example.com</div><div><b>⌖</b> Bangladesh</div></div><a class="button" href="mailto:your-email@example.com">Send Message →</a></section>
+</div>
 </main>
-
-<footer><div class="container">© <span id="year"></span> Shamim Hossain. All rights reserved.</div></footer>
-<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
-</body>
-</html>
+<footer><div class="wrap foot"><span>© 2026 Shamim Hossain. All Rights Reserved.</span><strong>Together for Better Production</strong><span>Biscuit and Bakery Professional</span></div></footer>
+<script>const btn=document.getElementById('menuBtn'),links=document.getElementById('navLinks');btn.addEventListener('click',()=>links.classList.toggle('open'));links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>links.classList.remove('open')));</script>
+</body></html>
